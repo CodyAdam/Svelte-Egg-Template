@@ -9,8 +9,9 @@ This is a boilerplate for [Svelte](https://svelte.dev/) using [ElectronJS](https
 ```bash
 npx degit "codyadam/svelte-egg-template" project-name
 cd project-name
-npm install
+npm install --silent
 ```
+
 This required [Git](https://git-scm.com/) to be installed.
 
 ## Avaliable NPM Scripts
@@ -54,18 +55,18 @@ The root folder is `./src/stories/`.
 
 ## How to use SCSS
 
-```javascript
-//inside your .svelte file
-<style lang="scss"> 
-  // your scss code here 
+```html
+<!-- inside your .svelte file -->
+<style lang="scss">
+    /* your scss code here */
 </style>
 ```
 
 ## How to use TypeScript
 
-```javascript
-//inside your .svelte file
-<script lang="typescript"> 
-  // your typescript code here 
+```html
+<!-- inside your .svelte file -->
+<script lang="typescript">
+    /* your typescript code here */
 </script>
 ```
