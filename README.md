@@ -10,6 +10,7 @@ This is a boilerplate for [Svelte](https://svelte.dev/) using [ElectronJS](https
 npx degit "codyadam/svelte-egg-template" svelte-electron
 cd svelte-electron
 npm install
+//required git to be installed
 ```
 
 ## Avaliable NPM Scripts
