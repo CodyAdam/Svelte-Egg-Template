@@ -58,7 +58,7 @@ Storybook root folder is `./src/stories/`
 </style>
 ```
 
-## How to use SCSS
+## How to use TypeScript
 
 ```javascript
 //inside your .svelte file
