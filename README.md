@@ -1,5 +1,7 @@
 # 🥚 Svelte Egg Template 🥚
 
+![Thumbnail](https://github.com/CodyAdam/Svelte-Egg-Template/blob/master/Thumbnail.png?raw=true)
+
 This is a boilerplate for [Svelte](https://svelte.dev/) using [ElectronJS](https://electronjs.org/), with [Storybook](https://storybook.js.org/), [Typescript](https://www.typescriptlang.org/) and [SCSS](https://sass-lang.com/) support.
 
 ## How to create a new project using this boilerplate
