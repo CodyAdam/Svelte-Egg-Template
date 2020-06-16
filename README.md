@@ -7,11 +7,11 @@ This is a boilerplate for [Svelte](https://svelte.dev/) using [ElectronJS](https
 ## How to create a new project using this boilerplate
 
 ```bash
-npx degit "codyadam/svelte-egg-template" svelte-electron
-cd svelte-electron
+npx degit "codyadam/svelte-egg-template" project-name
+cd project-name
 npm install
-//required git to be installed
 ```
+This required [Git](https://git-scm.com/) to be installed.
 
 ## Avaliable NPM Scripts
 
@@ -33,7 +33,7 @@ npm run start:browser
 npm run build
 ```
 
-The static app will be in `./public`
+The static app build will be in `./public` folder.
 
 ##### To package application
 
@@ -50,7 +50,7 @@ npm run storybook
 ```
 
 Opens browser with Storybook.
-The root folder is `./src/stories/`
+The root folder is `./src/stories/`.
 
 ## How to use SCSS
 
