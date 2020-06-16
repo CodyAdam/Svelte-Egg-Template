@@ -2,6 +2,22 @@
     "name": "svelte-egg-template",
     "version": "0.0.1",
     "description": "Svelte, Electron, Typescript, SCSS Template",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/CodyAdam/Svelte-Egg-Template.git"
+    },
+    "keywords": [
+        "Svelte",
+        "ElectronJS",
+        "TypeScript",
+        "SCSS",
+        "SASS",
+        "Storybook",
+        "Template",
+        "Boilerplate"
+    ],
+    "author": "CodyAdam",
+    "license": "MIT",
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
