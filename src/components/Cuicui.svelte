@@ -70,6 +70,9 @@
     <img src="https://svelte.dev/favicon.png" alt="" />
     <img src="https://www.electronjs.org/images/favicon.ico" alt="" />
     <img
+      src="https://storybook.js.org/images/logos/icon-storybook.png"
+      alt="" />
+    <img
       src="https://www.typescriptlang.org/assets/images/icons/favicon.ico"
       alt="" />
     <img src="https://sass-lang.com/favicon.ico" alt="" />
