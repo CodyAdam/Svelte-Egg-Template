@@ -47,7 +47,7 @@ npm run storybook
 ```
 
 Opens browser with Storybook.
-Storybook root folder is `./src/stories/`
+The root folder is `./src/stories/`
 
 ## How to use SCSS
 
