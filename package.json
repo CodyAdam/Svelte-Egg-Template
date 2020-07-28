@@ -1,53 +1,40 @@
 {
-    "name": "svelte-egg-template",
-    "version": "0.0.1",
-    "description": "Svelte, Electron, Typescript, SCSS Template",
+    "name": "svelectron",
+    "version": "1.0.0",
+    "main": "electron-index.js",
+    "description": "Svelte & Electron Template",
     "repository": {
         "type": "git",
-        "url": "https://github.com/CodyAdam/Svelte-Egg-Template.git"
+        "url": "https://github.com/CodyAdam/Svelection-Template.git"
     },
-    "keywords": [
-        "Svelte",
-        "ElectronJS",
-        "TypeScript",
-        "SCSS",
-        "SASS",
-        "Storybook",
-        "Template",
-        "Boilerplate"
-    ],
-    "author": "CodyAdam",
-    "license": "MIT",
-    "main": "index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
         "build": "rollup -c",
-        "autobuild": "rollup -c -w",
-        "start": "electron .",
-        "start:dev": "concurrently \"npm run autobuild\" \"set ELECTRON_RELOAD=yes && electron .\"",
-        "start:browser": "concurrently \"npm run autobuild\" \"browser-sync public -w --no-ghost-mode\"",
-        "storybook": "start-storybook -s ./public",
-        "package": "electron-packager . --out=dist --ignore=.storybook --ignore=src --ignore=rollup.config.js --ignore=.gitignore --overwrite"
+        "dev": "rollup -c -w",
+        "start": "sirv public",
+        "electron": "electron .",
+        "dist:portable": "electron-builder --dir",
+        "dist:installer": "electron-builder",
+        "validate": "svelte-check"
     },
     "devDependencies": {
-        "@babel/core": "^7.10.2",
-        "@storybook/svelte": "^5.3.19",
-        "babel-loader": "^8.1.0",
-        "browser-sync": "^2.26.7",
-        "concurrently": "^4.1.2",
-        "electron": "^6.1.12",
-        "electron-packager": "^14.2.1",
-        "electron-reload": "^1.5.0",
-        "npm-run-all": "^4.1.5",
-        "rollup": "^1.32.1",
-        "rollup-plugin-commonjs": "^10.1.0",
-        "rollup-plugin-node-resolve": "^5.2.0",
-        "rollup-plugin-svelte": "^5.2.2",
-        "rollup-plugin-terser": "^5.3.0",
-        "svelte": "^3.23.2",
-        "svelte-loader": "^2.13.6",
-        "svelte-preprocess": "^3.9.7",
-        "node-sass": "^4.14.1",
-        "typescript": "^3.9.5"
+        "@rollup/plugin-commonjs": "^12.0.0",
+        "@rollup/plugin-node-resolve": "^8.0.0",
+        "rollup": "^2.3.4",
+        "rollup-plugin-livereload": "^1.0.0",
+        "rollup-plugin-svelte": "^5.0.3",
+        "rollup-plugin-terser": "^5.1.2",
+        "svelte": "^3.0.0",
+        "electron": "^9.1.1",
+        "electron-builder": "^22.8.0",
+        "svelte-check": "^0.1.0",
+        "svelte-preprocess": "^4.0.0",
+        "@rollup/plugin-typescript": "^4.0.0",
+        "typescript": "^3.9.3",
+        "tslib": "^2.0.0",
+        "@tsconfig/svelte": "^1.0.0",
+        "node-sass": "^4.14.1"
+    },
+    "dependencies": {
+        "sirv-cli": "^1.0.0"
     }
 }
