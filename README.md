@@ -1,5 +1,5 @@
 
-<img src="https://svelte.dev/favicon.png" alt="" style="margin: 10px" width="70px"/><img src="https://sass-lang.com/favicon.ico" alt="" style="margin: 10px" width="70px"/> <img src="https://www.electronjs.org/images/favicon.ico" alt="" style="margin: 10px" width="70px"/><img src="https://www.typescriptlang.org/assets/images/icons/favicon.ico" alt="" style="margin: 10px" width="70px" />
+<img src="https://svelte.dev/favicon.png" width="50px" /><img src="https://sass-lang.com/favicon.ico" width="50px" /><img src="https://www.electronjs.org/images/favicon.ico" width="50px" /><img src="https://www.typescriptlang.org/assets/images/icons/favicon.ico" width="50px" />
 
 # Degit
 
