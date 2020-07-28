@@ -1,5 +1,5 @@
-<script>
-  import Cuicui from "./components/Cuicui.svelte";
+<script lang="ts">
+    import Cuicui from "./Cuicui.svelte";
 </script>
 
 <Cuicui />

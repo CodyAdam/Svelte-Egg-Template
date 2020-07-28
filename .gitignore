@@ -1,13 +1,5 @@
-.DS_Store
-node_modules/
-logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-lerna-debug.log*
-report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+/node_modules/
+/public/build/
+/dist/
 
-public/bundle.*
-dist/
-!dist/.placeholder
+.DS_Store
