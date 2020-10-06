@@ -24,7 +24,7 @@
         "rollup-plugin-svelte": "^5.0.3",
         "rollup-plugin-terser": "^5.1.2",
         "svelte": "^3.0.0",
-        "electron": "^9.1.1",
+        "electron": "^9.3.0",
         "electron-builder": "^22.8.0",
         "svelte-check": "^0.1.0",
         "svelte-preprocess": "^4.0.0",
